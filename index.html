@@ -36,11 +36,11 @@
                     <a class="nav-link" href="#">Contact</a>
                   </li>
                 
-                  <li class="nav-item d-md-none">
+                  <li class="nav-item d-lg-none">
                     <a class="nav-link" href="#pricing">Pricing</a>
                   </li>
                   
-                  <li class="nav-item ms-2 d-none d-md-inline">
+                  <li class="nav-item ms-2 d-none d-lg-inline">
                     <a class="btn btn-secondary" href="#pricing" >BuyNow</a>
                   </li>
                   
@@ -68,19 +68,201 @@
                            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                        </div>
                        <div class="col-md-5 text-center d-none d-md-block">
-                           <img class="img-fluid" src="/assets/ebook-cover.png" alt="book image">
+                           <img class="img-fluid" src="./assets/ebook-cover.png" alt="book image">
                        </div>
                    </div>
                </div>
            </section>
 
         <!--PRICING PLAN-->
+           <section id="pricing" class="bg-light mt-5">
+             <div class="container-lg">
+               <div class="text-center">
+                 <h2>Pricing Plan</h2>
+                 <p class="lead text-muted">
+                   Choose a Pricing Plan to suit You.
+                 </p>
+               </div>
+               <div class="row my-5 align-items-center justify-content-center g-0">
+                 <div class="col-8 col-lg-4 col-xl-3">
+                   <div class="card border-0">
+                      <div class="card-body text-center py-4">
+                        <h4 class="card-title">Starter Edition</h4>
+                        <p class="lead card-subtitle">eBook download only</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                        <p class="card-text mx-5 text-mutes d-none d-lg-block">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                      </div>
+                   </div>
+                 </div>
 
+                 <div class="col-9 col-lg-4">
+                  <div class="card border-primary border-2">
+                    <div class="card-border text-center text-primary">Most Popular</div>
+                     <div class="card-body text-center py-5">
+                       <h4 class="card-title">Starter Edition</h4>
+                       <p class="lead card-subtitle">eBook download & all updates</p>
+                       <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+                       <p class="card-text mx-5 text-mutes d-none d-lg-block">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Lorem ipsum dolor sit amet consectetur.
+                       </p>
+                       <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                     </div>
+                  </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                  <div class="card border-0">
+                     <div class="card-body text-center py-4">
+                       <h4 class="card-title">Ultimate Edition</h4>
+                       <p class="lead card-subtitle">Download, Updates & Extras</p>
+                       <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                       <p class="card-text mx-5 text-mutes d-none d-lg-block">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Lorem, ipsum dolor. Lorem, ipsum dolor.
+                       </p>
+                       <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                     </div>
+                  </div>
+                </div>
+               </div>
+               
+             </div>
+           </section>
 
-        <!---->
+        <!--Topic at a glance-->
+        <section id="topics">
+          <div class="container-md">
+            <div class="text-center">
+              <h2>
+                 Inside the Book ...
+              </h2>
+              <p class="lead text-muted">
+                A quick glance at the topics you will learn.
+              </p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+              <div class="col-6 col-lg-4">
+                <img src="./assets/kindle.png" alt="ebook-cover" class="img-fluid">
+              </div>
+              
+              <div class="col-lg-6">
+              <!-- Accordian -->
+              <div class="accordion" id="chapters">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                        Chapter 1 - Your First Web Page
+                   </button>
+                  </h2>
+                  <div id="chapter-1" class="accordion-collapse collapse show"
+                     aria-labelledby="heading-1" data-bs-parent="#chapters">
+                          <div class="accordion-body">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, 
+                                saepe incidunt ab molestias quas optio accusantium ea quam hic fuga?
+                                Lorem ipsum dolor sit amet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam autem 
+                                aliquam totam laboriosam soluta porro expedita perspiciatis provident, 
+                                placeat veritatis reprehenderit ea, qui accusantium itaque a. Pariatur 
+                                maxime aperiam expedita iste.</p>
+                          </div>
+                  </div>
+                </div>
 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                        Chapter 2 - Learn Basic HTML and CSS
+                   </button>
+                  </h2>
+                  <div id="chapter-2" class="accordion-collapse collapse"
+                     aria-labelledby="heading-2" data-bs-parent="#chapters">
+                          <div class="accordion-body">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, 
+                                saepe incidunt ab molestias quas optio accusantium ea quam hic fuga?
+                                Lorem ipsum dolor sit amet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam autem 
+                                aliquam totam laboriosam soluta porro expedita perspiciatis provident, 
+                                placeat veritatis reprehenderit ea, qui accusantium itaque a. Pariatur 
+                                maxime aperiam expedita iste.</p>
+                          </div>
+                  </div>
+                </div>
 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">
+                        Chapter 3 - JavaScript - to Control Function
+                   </button>
+                  </h2>
+                  <div id="chapter-3" class="accordion-collapse collapse"
+                     aria-labelledby="heading-3" data-bs-parent="#chapters">
+                          <div class="accordion-body">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, 
+                                saepe incidunt ab molestias quas optio accusantium ea quam hic fuga?
+                                Lorem ipsum dolor sit amet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam autem 
+                                aliquam totam laboriosam soluta porro expedita perspiciatis provident, 
+                                placeat veritatis reprehenderit ea, qui accusantium itaque a. Pariatur 
+                                maxime aperiam expedita iste.</p>
+                          </div>
+                  </div>
+                </div>
 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                        Chapter 4 - React Frame Work
+                   </button>
+                  </h2>
+                  <div id="chapter-4" class="accordion-collapse collapse"
+                     aria-labelledby="heading-4" data-bs-parent="#chapters">
+                          <div class="accordion-body">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, 
+                                saepe incidunt ab molestias quas optio accusantium ea quam hic fuga?
+                                Lorem ipsum dolor sit amet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam autem 
+                                aliquam totam laboriosam soluta porro expedita perspiciatis provident, 
+                                placeat veritatis reprehenderit ea, qui accusantium itaque a. Pariatur 
+                                maxime aperiam expedita iste.</p>
+                          </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                        Chapter 5 - Sass and J-query
+                   </button>
+                  </h2>
+                  <div id="chapter-5" class="accordion-collapse collapse"
+                     aria-labelledby="heading-5" data-bs-parent="#chapters">
+                          <div class="accordion-body">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, 
+                                saepe incidunt ab molestias quas optio accusantium ea quam hic fuga?
+                                Lorem ipsum dolor sit amet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam autem 
+                                aliquam totam laboriosam soluta porro expedita perspiciatis provident, 
+                                placeat veritatis reprehenderit ea, qui accusantium itaque a. Pariatur 
+                                maxime aperiam expedita iste.</p>
+                          </div>
+                    </div>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </div>
+     </section>
+
+    <!-- REVIEW LIST-->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
